@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Prudhvi</h1>
-<h3 align="center">Crafting Scalable Web Solutions | MERN | 3rd Year CS</h3>
+<h3 align="center">Crafting Scalable Web Solutions | MERN | 4th Year CS</h3>
 
 - 🔭 I’m currently working on [ClasSync](https://clas-sync-nwie.vercel.app)
 
