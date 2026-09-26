@@ -1,15 +1,74 @@
-<h1 align="center">Hi 👋, I'm Prudhvi</h1>
-<h3 align="center">Crafting Scalable Web Solutions | MERN | 4th Year CS</h3>
+🚀 DocuSense 2.0 — Smarter, Self-Correcting RAG
 
-- 🔭 I’m currently working on [ClasSync](https://clas-sync-nwie.vercel.app)
+I’ve rebuilt my document chat app from the ground up. Beyond separating frontend and backend, the real leap is a redesigned RAG pipeline that doesn’t just retrieve — it evaluates, refines, and validates answers before responding.
 
-- 📫 How to reach me **prudhvisai3772@gmail.com**
+🏗️ **New Architecture**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/prudhvi kunche" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="prudhvi kunche" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/prudhvi_kunche" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="prudhvi_kunche" height="30" width="40" /></a>
-</p>
+The application is now split into a dedicated frontend and backend:
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+🖥️ **Frontend**
+
+• Next.js
+• React
+• Tailwind CSS
+• Streaming chat responses
+
+⚙️ **Backend**
+
+• FastAPI
+• SQLAlchemy
+• PostgreSQL / Neon
+• REST APIs
+• Cookie-based authentication
+
+🧠 **Redesigned RAG Pipeline**
+
+Instead of the traditional:
+
+**Query → Retrieve → Generate**
+
+DocuSense now follows an iterative workflow built with LangGraph:
+
+**Query → Route → Retrieve → Evaluate → Refine / Rewrite → Generate → Validate → Revise**
+
+The workflow can:
+
+🔹 Route the query between conversation and document-based questions
+
+🔹 Retrieve relevant context from the document
+
+🔹 Evaluate the quality of retrieved context
+
+🔹 Refine the retrieved context when needed
+
+🔹 Rewrite the query when retrieval isn't useful
+
+🔹 Generate an answer using the retrieved context
+
+🔹 Check whether the answer is sufficiently supported
+
+🔹 Check whether the answer actually addresses the user's question
+
+🔹 Revise and retry when necessary
+
+🔹 Return a grounded response or indicate when an answer cannot be found
+
+The goal was to move beyond a simple retrieve-and-generate approach and build a RAG system that can reason about its own retrieval and generated responses.
+
+🛠️ **Tech Stack**
+
+Next.js · FastAPI · LangChain · LangGraph · Pinecone · PostgreSQL · SQLAlchemy · OpenAI Embeddings
+
+🌐 **Live Demo:**
+https://docu-sense-2-0-wowt.vercel.app/
+
+💻 **GitHub Repository:**
+https://github.com/prudhvi-dot/DocuSense_2.0
+
+This rebuild has been a great learning experience — especially understanding how much engineering goes into building reliable AI applications beyond simply connecting an LLM to a vector database.
+
+**Retrieval → Evaluation → Routing → Refinement → Validation → Streaming → Persistence**
+
+Still improving DocuSense step by step. 🚀
+
+#AI #RAG #LangGraph #LangChain #FastAPI #NextJS #Pinecone #GenerativeAI #LLM #PostgreSQL #AIEngineering #SoftwareEngineering
