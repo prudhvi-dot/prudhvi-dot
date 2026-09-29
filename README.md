@@ -9,36 +9,31 @@ Applied AI & Backend Engineer | LangChain • LangGraph • FastAPI
 </p>
 
 <p align="center">
-  <a href="https://github.com/prudhvi-dot">
-    <img src="https://img.shields.io/badge/GitHub-prudhvi--dot-181717?style=for-the-badge&logo=github" />
+  <a href="https://github.com/prudhvi-dot" target="_blank">
+    <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" width="40" height="40"/>
   </a>
-  <a href="https://www.linkedin.com/in/prudhvi-kunche/">
-    <img src="https://img.shields.io/badge/LinkedIn-Prudhvi%20Kunche-0A66C2?style=for-the-badge&logo=linkedin" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/prudhvi-kunche/" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="40" height="40"/>
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:prudhvisai3772@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail" />
+    <img src="https://cdn.simpleicons.org/gmail/EA4335" alt="Email" width="40" height="40"/>
   </a>
 </p>
+
+
+
 
 ---
 
 ## About Me
 
-I'm an **Applied AI & Backend Engineer** focused on building AI systems that prioritize **reliability over guesswork**.
+I'm an **Applied AI & Backend Engineer** building reliable, production-ready AI systems.
 
-I started as a **MERN stack developer** and transitioned into AI engineering, combining my full-stack foundation with modern AI architectures.
+I started with **MERN stack development** and transitioned into AI engineering, focusing on **RAG, agentic AI, LangGraph, LangChain, and FastAPI**.
 
-My current focus is on:
-
-* **RAG & Self-Correcting AI Systems**
-* **Agentic AI & Tool Calling**
-* **LangGraph Workflows**
-* **FastAPI & Backend Engineering**
-* **LangChain & LLM Applications**
-* **PostgreSQL, Vector Databases & Retrieval**
-* **Production-ready AI applications**
-
-I enjoy working on systems where the challenge isn't just **"Can an LLM answer?"**, but **"Can the system know when it should answer, verify its answer, and refuse when it doesn't have enough information?"**
+I’m particularly interested in building AI systems that are **grounded, reliable, and capable of knowing when they don't have an answer**.
 
 ---
 
@@ -155,10 +150,7 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=prudhvi-dot&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=prudhvi-dot&layout=compact&theme=transparent&hide_border=true" height="180"/>
-</p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=prudhvi-dot&theme=transparent&hide_border=true" />
