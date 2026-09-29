@@ -44,94 +44,30 @@ I enjoy working on systems where the challenge isn't just **"Can an LLM answer?"
 
 ## 🚀 Featured Projects
 
-### 📚 DocuSense 2.0 — Self-Correcting RAG
+### 📚 DocuSense 2.0
 
-> A document-chat system designed around one principle: **answers should be grounded in the uploaded document.**
+Self-correcting document RAG system designed to provide grounded answers from uploaded documents.
 
-DocuSense 2.0 replaces a traditional linear RAG pipeline with an iterative **Corrective RAG + Self-RAG inspired workflow**.
+**Next.js • FastAPI • LangGraph • PostgreSQL • Pinecone**
 
-```text
-Query
-  ↓
-Route
-  ↓
-Retrieve
-  ↓
-Evaluate
-  ↓
-Refine / Rewrite
-  ↓
-Generate
-  ↓
-Validate
-  ↓
-Revise
-```
-
-### ✨ Highlights
-
-* 🔍 Document-scoped retrieval
-* 🧠 Corrective retrieval and query refinement
-* 🔄 Iterative answer revision
-* ✅ Groundedness validation
-* 🛑 Explicit "I don't know" paths
-* ⚡ Streaming AI responses
-* 🔐 Cookie-based authentication
-* 🗄️ PostgreSQL + Neon
-* 🌲 Pinecone vector search
-* 🧩 LangGraph orchestration
-
-**Stack:** Next.js • React • Tailwind CSS • FastAPI • LangGraph • LangChain • PostgreSQL • Neon • Pinecone • OpenAI
-
-<p align="center">
+<p>
   <a href="https://docu-sense-2-0-wowt.vercel.app/">
     <img src="https://img.shields.io/badge/🌐%20Live%20Demo-DocuSense%202.0-000000?style=for-the-badge" />
   </a>
   <a href="https://github.com/prudhvi-dot/DocuSense_2.0">
-    <img src="https://img.shields.io/badge/💻%20Source-Code-181717?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/💻%20GitHub-181717?style=for-the-badge&logo=github" />
   </a>
 </p>
 
----
+### 🤖 Agentic Chatbot
 
-### 🤖 Agentic Chatbot — Tool-Calling AI Agent
+Tool-calling AI agent that dynamically uses web search, document retrieval, or direct responses.
 
-> A tool-calling AI agent that dynamically decides **when and how to use external tools**.
+**Next.js • FastAPI • LangGraph • LangChain • Pinecone**
 
-Unlike a fixed RAG pipeline, the agent determines whether it should:
-
-* 🌐 Search the web
-* 📄 Retrieve information from uploaded documents
-* 💬 Answer directly
-* 🛠️ Invoke the appropriate tool
-
-The system uses **LangGraph** to orchestrate the agent and maintain conversational state.
-
-### ✨ Highlights
-
-* 🧠 Dynamic tool selection
-* 🌐 Web search integration
-* 📄 PDF/document retrieval
-* 🔄 Agentic tool-calling loop
-* 💾 Persistent conversation state
-* ⚡ Streaming responses
-* 🗂️ Multi-session chat interface
-* 🔐 Authentication
-* 🐍 FastAPI backend
-
-**Stack:** Next.js • React • FastAPI • LangGraph • LangChain • OpenAI • Pinecone • PostgreSQL • Tavily
-
----
-
-### 📋 ClasSync
-
-> A full-stack platform designed to simplify academic coordination and classroom management.
-
-**Stack:** MERN • React • Node.js • Express • MongoDB
-
-<p align="center">
-  <a href="https://clas-sync-nwie.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-ClasSync-000000?style=for-the-badge" />
+<p>
+  <a href="https://agentic-chatbot-swart.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Agentic%20Chatbot-000000?style=for-the-badge" />
   </a>
 </p>
 
