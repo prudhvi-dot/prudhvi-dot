@@ -1,192 +1,77 @@
-<h1 align="center">Hi 👋, I'm Prudhvi</h1>
+<div align="center">
 
-<h3 align="center">AI Engineer | Building LLM Applications, RAG Systems & Scalable Web Applications</h3>
+# Hi, I'm Prudhvi 👋
 
-<p align="center">
-  <a href="https://docu-sense-2-0-wowt.vercel.app/">🌐 Live Demo</a> •
-  <a href="https://github.com/prudhvi-dot/DocuSense_2.0">💻 DocuSense 2.0</a> •
-  <a href="https://www.linkedin.com/in/prudhvi-kunche/">LinkedIn</a> •
-  <a href="https://leetcode.com/prudhvi_kunche/">LeetCode</a>
-</p>
+**AI Engineer transitioning from full-stack development into agentic AI & RAG systems**
 
----
+I build AI systems that prioritize reliability over guesswork — and ship them end-to-end, from backend and AI pipelines to frontend and deployment.
 
-### 🚀 About Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/prudhvikunche)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:prushvisai3772@gmail.com)
 
-* 🤖 Focused on **AI Engineering and LLM-powered applications**
-* 🧠 Building **RAG systems, AI agents, and document intelligence applications**
-* ⚙️ Working with **LangChain, LangGraph, FastAPI, and modern AI APIs**
-* 🌐 Experienced in building full-stack applications with **Next.js and React**
-* 📚 Currently exploring **Agentic AI, MCP, advanced RAG architectures, and AI application engineering**
-* 💡 Interested in building reliable AI systems beyond simple LLM integrations
+</div>
 
 ---
 
-### 🔭 Current Project
+### 🚀 Featured Projects
 
-**DocuSense 2.0 — Self-Correcting RAG Document Chat**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A document intelligence application with a redesigned RAG pipeline that evaluates, refines, and validates responses before returning them.
+**[DocuSense](#)**
+A document-chat app built around one constraint: every answer must come from the uploaded document, or the system explicitly says it doesn't know.
 
-**RAG Workflow:**
+Modified Corrective RAG + Self-RAG pipeline — per-chunk grading with query rewriting, groundedness verification with an automatic revision loop, and an explicit refusal path instead of a confident guess.
 
-`Query → Route → Retrieve → Evaluate → Refine / Rewrite → Generate → Validate → Revise`
+`LangGraph` `FastAPI` `Next.js` `Pinecone` `PostgreSQL`
 
-**Tech Stack:**
+[Live Demo](#) · [Source](#)
 
-`Next.js` · `FastAPI` · `LangChain` · `LangGraph` · `Pinecone` · `PostgreSQL` · `SQLAlchemy` · `OpenAI Embeddings`
+</td>
+<td width="50%" valign="top">
 
-🌐 **Live:** https://docu-sense-2-0-wowt.vercel.app/
-💻 **Repository:** https://github.com/prudhvi-dot/DocuSense_2.0
+**[Agentic Chatbot](#)**
+A single tool-calling agent that decides for itself when to search the web, retrieve from uploaded documents, or answer directly — no fixed pipeline, no hardcoded sequence.
 
----
+Built as a deliberate contrast to DocuSense: genuine agentic decision-making, where the model plans its own multi-step approach rather than following a pre-defined flow.
 
-### 🛠️ Languages & Technologies
+`LangGraph` `Tool Calling` `FastAPI` `Next.js` `Pinecone`
 
-#### Programming Languages
+[Live Demo](#) · [Source](#)
 
-<p align="left">
-<a href="https://www.java.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
-</a>
-<a href="https://www.python.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-</a>
-<a href="https://www.javascript.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-</a>
-<a href="https://www.typescriptlang.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-</a>
-</p>
-
-#### AI / LLM Engineering
-
-<p align="left">
-<a href="https://www.langchain.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/langchain/langchain-original.svg" alt="LangChain" width="40" height="40"/>
-</a>
-<a href="https://python.langchain.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/langgraph/langgraph-original.svg" alt="LangGraph" width="40" height="40"/>
-</a>
-<a href="https://www.pinecone.io/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pinecone/pinecone-original.svg" alt="Pinecone" width="40" height="40"/>
-</a>
-</p>
-
-**AI Technologies**
-
-`RAG` · `LangChain` · `LangGraph` · `LLM Applications` · `AI Agents` · `Vector Databases` · `Embeddings` · `Tool Calling` · `MCP`
-
-#### Backend
-
-<p align="left">
-<a href="https://fastapi.tiangolo.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" height="40"/>
-</a>
-<a href="https://www.postgresql.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
-</a>
-<a href="https://www.sqlalchemy.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlalchemy/sqlalchemy-original.svg" alt="SQLAlchemy" width="40" height="40"/>
-</a>
-</p>
-
-`FastAPI` · `REST APIs` · `SQLAlchemy` · `PostgreSQL` · `Neon` · `Cookie Authentication`
-
-#### Frontend
-
-<p align="left">
-<a href="https://nextjs.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="Next.js" width="40" height="40"/>
-</a>
-<a href="https://react.dev/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
-</a>
-<a href="https://tailwindcss.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="40" height="40"/>
-</a>
-</p>
-
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS`
-
-#### Databases & Infrastructure
-
-<p align="left">
-<a href="https://www.mongodb.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
-</a>
-<a href="https://www.postgresql.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
-</a>
-<a href="https://www.pinecone.io/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pinecone/pinecone-original.svg" alt="Pinecone" width="40" height="40"/>
-</a>
-</p>
-
-`PostgreSQL` · `Neon` · `Pinecone` · `MongoDB`
+</td>
+</tr>
+</table>
 
 ---
 
-### 📌 Featured Projects
+### 🛠️ Tech Stack
 
-#### 🤖 DocuSense 2.0
-
-**Self-Correcting RAG Document Chat**
-
-`Next.js` · `FastAPI` · `LangGraph` · `LangChain` · `Pinecone` · `PostgreSQL`
-
-A document chat application with query routing, retrieval evaluation, query refinement, answer validation, and streaming responses.
-
-🔗 [Live Demo](https://docu-sense-2-0-wowt.vercel.app/)
-🔗 [GitHub](https://github.com/prudhvi-dot/DocuSense_2.0)
-
-#### 🧠 Agentic Chatbot
-
-An LLM-powered chatbot capable of using external tools, retrieving information, maintaining conversation state, and synthesizing responses.
-
-`Python` · `LangGraph` · `LangChain` · `OpenAI` · `Tavily` · `Pinecone` · `PostgreSQL`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ---
 
-### 📊 GitHub Stats
+### 📈 GitHub Stats
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=prudhvi-dot&show_icons=true&theme=tokyonight&hide_border=true" alt="Prudhvi's GitHub Stats"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prudhvi-dot&theme=tokyonight&hide_border=true" alt="Prudhvi's GitHub Streak"/>
-</p>
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=prudhvi-dot&show_icons=true&theme=default&hide_border=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prudhvi-dot&layout=compact&theme=default&hide_border=true" />
+</div>
 
 ---
 
-### 🧩 Problem Solving
+<div align="center">
 
-* 💻 **LeetCode:** 250+ problems solved
-* ☕ Primary DSA language: **Java**
-* 🧠 Focused on understanding **DSA patterns and problem-solving techniques**
+*Open to AI Engineering and Backend Engineering roles where reliability, system design, and production-grade implementation matter.*
 
-🔗 [My LeetCode Profile](https://leetcode.com/prudhvi_kunche/)
-
----
-
-### 🤝 Connect With Me
-
-<p align="left">
-<a href="https://www.linkedin.com/in/prudhvi-kunche/" target="_blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
-</a>
-
-<a href="https://leetcode.com/prudhvi_kunche" target="_blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40"/>
-</a>
-</p>
-
-📫 **Email:** [prudhvisai3772@gmail.com](mailto:prudhvisai3772@gmail.com)
-
----
-
-<p align="center">
-  <i>Building AI applications, learning continuously, and shipping projects 🚀</i>
-</p>
+</div>
