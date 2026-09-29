@@ -37,37 +37,6 @@ I’m particularly interested in building AI systems that are **grounded, reliab
 
 ---
 
-## Featured Projects
-
-### DocuSense 2.0
-
-Self-correcting document RAG system designed to provide grounded answers from uploaded documents.
-
-**Next.js • FastAPI • LangGraph • PostgreSQL • Pinecone**
-
-<p>
-  <a href="https://docu-sense-2-0-wowt.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-DocuSense%202.0-000000?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/prudhvi-dot/DocuSense_2.0">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
-### Agentic Chatbot
-
-Tool-calling AI agent that dynamically uses web search, document retrieval, or direct responses.
-
-**Next.js • FastAPI • LangGraph • LangChain • Pinecone**
-
-<p>
-  <a href="https://agentic-chatbot-swart.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Agentic%20Chatbot-000000?style=for-the-badge" />
-  </a>
-</p>
-
----
-
 ## AI / LLM
 
 <p align="left">
@@ -147,6 +116,36 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 </p>
 
 ---
+
+## Featured Projects
+
+### DocuSense 2.0
+
+Self-correcting document RAG system designed to provide grounded answers from uploaded documents.
+
+**Next.js • FastAPI • LangGraph • PostgreSQL • Pinecone**
+
+<p>
+  <a href="https://docu-sense-2-0-wowt.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-DocuSense%202.0-000000?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/prudhvi-dot/DocuSense_2.0">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+### Agentic Chatbot
+
+Tool-calling AI agent that dynamically uses web search, document retrieval, or direct responses.
+
+**Next.js • FastAPI • LangGraph • LangChain • Pinecone**
+
+<p>
+  <a href="https://agentic-chatbot-swart.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Agentic%20Chatbot-000000?style=for-the-badge" />
+  </a>
+</p>
+
 
 ## GitHub Stats
 
