@@ -22,7 +22,7 @@ Applied AI & Backend Engineer | LangChain • LangGraph • FastAPI
 
 ---
 
-## 🧠 About Me
+## About Me
 
 I'm an **Applied AI & Backend Engineer** focused on building AI systems that prioritize **reliability over guesswork**.
 
@@ -30,21 +30,21 @@ I started as a **MERN stack developer** and transitioned into AI engineering, co
 
 My current focus is on:
 
-* 🤖 **RAG & Self-Correcting AI Systems**
-* 🧩 **Agentic AI & Tool Calling**
-* 🔄 **LangGraph Workflows**
-* ⚡ **FastAPI & Backend Engineering**
-* 🧠 **LangChain & LLM Applications**
-* 🗄️ **PostgreSQL, Vector Databases & Retrieval**
-* 🚀 **Production-ready AI applications**
+* **RAG & Self-Correcting AI Systems**
+* **Agentic AI & Tool Calling**
+* **LangGraph Workflows**
+* **FastAPI & Backend Engineering**
+* **LangChain & LLM Applications**
+* **PostgreSQL, Vector Databases & Retrieval**
+* **Production-ready AI applications**
 
 I enjoy working on systems where the challenge isn't just **"Can an LLM answer?"**, but **"Can the system know when it should answer, verify its answer, and refuse when it doesn't have enough information?"**
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 📚 DocuSense 2.0
+### DocuSense 2.0
 
 Self-correcting document RAG system designed to provide grounded answers from uploaded documents.
 
@@ -52,14 +52,14 @@ Self-correcting document RAG system designed to provide grounded answers from up
 
 <p>
   <a href="https://docu-sense-2-0-wowt.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-DocuSense%202.0-000000?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Live%20Demo-DocuSense%202.0-000000?style=for-the-badge" />
   </a>
   <a href="https://github.com/prudhvi-dot/DocuSense_2.0">
-    <img src="https://img.shields.io/badge/💻%20GitHub-181717?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
   </a>
 </p>
 
-### 🤖 Agentic Chatbot
+### Agentic Chatbot
 
 Tool-calling AI agent that dynamically uses web search, document retrieval, or direct responses.
 
@@ -67,15 +67,13 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 
 <p>
   <a href="https://agentic-chatbot-swart.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Agentic%20Chatbot-000000?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Live%20Demo-Agentic%20Chatbot-000000?style=for-the-badge" />
   </a>
 </p>
 
 ---
 
-## 🛠️ Tech Stack
-
-### 🤖 AI / LLM
+## AI / LLM
 
 <p align="left">
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
@@ -85,7 +83,7 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 <img src="https://img.shields.io/badge/Agentic_AI-000000?style=for-the-badge" />
 </p>
 
-### ⚙️ Backend
+## Backend
 
 <p align="left">
 <a href="https://fastapi.tiangolo.com/">
@@ -102,7 +100,7 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 </a>
 </p>
 
-### 🎨 Frontend
+## Frontend
 
 <p align="left">
 <a href="https://nextjs.org/">
@@ -119,7 +117,7 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 </a>
 </p>
 
-### 🗄️ Data & Infrastructure
+## Data & Infrastructure
 
 <p align="left">
 <a href="https://www.postgresql.org/">
@@ -136,7 +134,7 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 </a>
 </p>
 
-### 💻 Languages
+## Languages
 
 <p align="left">
 <a href="https://www.python.org/">
@@ -155,7 +153,7 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=prudhvi-dot&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="180"/>
@@ -168,31 +166,7 @@ Tool-calling AI agent that dynamically uses web search, document retrieval, or d
 
 ---
 
-## 🧩 What I'm Currently Building
-
-```text
-AI Engineering
-      │
-      ├── RAG Systems
-      │     ├── Corrective RAG
-      │     ├── Self-RAG
-      │     └── Evaluation & Grounding
-      │
-      ├── Agentic Systems
-      │     ├── Tool Calling
-      │     ├── LangGraph
-      │     └── Multi-Agent Workflows
-      │
-      └── Production Engineering
-            ├── FastAPI
-            ├── PostgreSQL
-            ├── Docker
-            └── Deployment
-```
-
----
-
-## 🎯 Current Focus
+## Current Focus
 
 Building AI applications that are:
 
