@@ -1,77 +1,271 @@
-<div align="center">
+<h1 align="center">Hi 👋, I'm Prudhvi Kunche</h1>
 
-# Hi, I'm Prudhvi 👋
+<h3 align="center">
+Applied AI & Backend Engineer | LangChain • LangGraph • FastAPI
+</h3>
 
-**AI Engineer transitioning from full-stack development into agentic AI & RAG systems**
+<p align="center">
+  Building reliable AI systems, agentic workflows, and production-ready applications.
+</p>
 
-I build AI systems that prioritize reliability over guesswork — and ship them end-to-end, from backend and AI pipelines to frontend and deployment.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/prudhvikunche)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:prushvisai3772@gmail.com)
-
-</div>
-
----
-
-### 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[DocuSense](#)**
-A document-chat app built around one constraint: every answer must come from the uploaded document, or the system explicitly says it doesn't know.
-
-Modified Corrective RAG + Self-RAG pipeline — per-chunk grading with query rewriting, groundedness verification with an automatic revision loop, and an explicit refusal path instead of a confident guess.
-
-`LangGraph` `FastAPI` `Next.js` `Pinecone` `PostgreSQL`
-
-[Live Demo](#) · [Source](#)
-
-</td>
-<td width="50%" valign="top">
-
-**[Agentic Chatbot](#)**
-A single tool-calling agent that decides for itself when to search the web, retrieve from uploaded documents, or answer directly — no fixed pipeline, no hardcoded sequence.
-
-Built as a deliberate contrast to DocuSense: genuine agentic decision-making, where the model plans its own multi-step approach rather than following a pre-defined flow.
-
-`LangGraph` `Tool Calling` `FastAPI` `Next.js` `Pinecone`
-
-[Live Demo](#) · [Source](#)
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/prudhvi-dot">
+    <img src="https://img.shields.io/badge/GitHub-prudhvi--dot-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/prudhvi-kunche/">
+    <img src="https://img.shields.io/badge/LinkedIn-Prudhvi%20Kunche-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:prudhvisai3772@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail" />
+  </a>
+</p>
 
 ---
 
-### 🛠️ Tech Stack
+## 🧠 About Me
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+I'm an **Applied AI & Backend Engineer** focused on building AI systems that prioritize **reliability over guesswork**.
 
----
+I started as a **MERN stack developer** and transitioned into AI engineering, combining my full-stack foundation with modern AI architectures.
 
-### 📈 GitHub Stats
+My current focus is on:
 
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=prudhvi-dot&show_icons=true&theme=default&hide_border=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prudhvi-dot&layout=compact&theme=default&hide_border=true" />
-</div>
+* 🤖 **RAG & Self-Correcting AI Systems**
+* 🧩 **Agentic AI & Tool Calling**
+* 🔄 **LangGraph Workflows**
+* ⚡ **FastAPI & Backend Engineering**
+* 🧠 **LangChain & LLM Applications**
+* 🗄️ **PostgreSQL, Vector Databases & Retrieval**
+* 🚀 **Production-ready AI applications**
+
+I enjoy working on systems where the challenge isn't just **"Can an LLM answer?"**, but **"Can the system know when it should answer, verify its answer, and refuse when it doesn't have enough information?"**
 
 ---
 
-<div align="center">
+## 🚀 Featured Projects
 
-*Open to AI Engineering and Backend Engineering roles where reliability, system design, and production-grade implementation matter.*
+### 📚 DocuSense 2.0 — Self-Correcting RAG
 
-</div>
+> A document-chat system designed around one principle: **answers should be grounded in the uploaded document.**
+
+DocuSense 2.0 replaces a traditional linear RAG pipeline with an iterative **Corrective RAG + Self-RAG inspired workflow**.
+
+```text
+Query
+  ↓
+Route
+  ↓
+Retrieve
+  ↓
+Evaluate
+  ↓
+Refine / Rewrite
+  ↓
+Generate
+  ↓
+Validate
+  ↓
+Revise
+```
+
+### ✨ Highlights
+
+* 🔍 Document-scoped retrieval
+* 🧠 Corrective retrieval and query refinement
+* 🔄 Iterative answer revision
+* ✅ Groundedness validation
+* 🛑 Explicit "I don't know" paths
+* ⚡ Streaming AI responses
+* 🔐 Cookie-based authentication
+* 🗄️ PostgreSQL + Neon
+* 🌲 Pinecone vector search
+* 🧩 LangGraph orchestration
+
+**Stack:** Next.js • React • Tailwind CSS • FastAPI • LangGraph • LangChain • PostgreSQL • Neon • Pinecone • OpenAI
+
+<p align="center">
+  <a href="https://docu-sense-2-0-wowt.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-DocuSense%202.0-000000?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/prudhvi-dot/DocuSense_2.0">
+    <img src="https://img.shields.io/badge/💻%20Source-Code-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+### 🤖 Agentic Chatbot — Tool-Calling AI Agent
+
+> A tool-calling AI agent that dynamically decides **when and how to use external tools**.
+
+Unlike a fixed RAG pipeline, the agent determines whether it should:
+
+* 🌐 Search the web
+* 📄 Retrieve information from uploaded documents
+* 💬 Answer directly
+* 🛠️ Invoke the appropriate tool
+
+The system uses **LangGraph** to orchestrate the agent and maintain conversational state.
+
+### ✨ Highlights
+
+* 🧠 Dynamic tool selection
+* 🌐 Web search integration
+* 📄 PDF/document retrieval
+* 🔄 Agentic tool-calling loop
+* 💾 Persistent conversation state
+* ⚡ Streaming responses
+* 🗂️ Multi-session chat interface
+* 🔐 Authentication
+* 🐍 FastAPI backend
+
+**Stack:** Next.js • React • FastAPI • LangGraph • LangChain • OpenAI • Pinecone • PostgreSQL • Tavily
+
+---
+
+### 📋 ClasSync
+
+> A full-stack platform designed to simplify academic coordination and classroom management.
+
+**Stack:** MERN • React • Node.js • Express • MongoDB
+
+<p align="center">
+  <a href="https://clas-sync-nwie.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-ClasSync-000000?style=for-the-badge" />
+  </a>
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+### 🤖 AI / LLM
+
+<p align="left">
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" />
+<img src="https://img.shields.io/badge/RAG-412991?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LLM_Applications-000000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Agentic_AI-000000?style=for-the-badge" />
+</p>
+
+### ⚙️ Backend
+
+<p align="left">
+<a href="https://fastapi.tiangolo.com/">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+</a>
+<a href="https://www.python.org/">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</a>
+<a href="https://nodejs.org/">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+</a>
+<a href="https://expressjs.com/">
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+</a>
+</p>
+
+### 🎨 Frontend
+
+<p align="left">
+<a href="https://nextjs.org/">
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+</a>
+<a href="https://react.dev/">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</a>
+<a href="https://www.typescriptlang.org/">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</a>
+<a href="https://tailwindcss.com/">
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</a>
+</p>
+
+### 🗄️ Data & Infrastructure
+
+<p align="left">
+<a href="https://www.postgresql.org/">
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+</a>
+<a href="https://www.mongodb.com/">
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+</a>
+<a href="https://www.pinecone.io/">
+<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge" />
+</a>
+<a href="https://git-scm.com/">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</a>
+</p>
+
+### 💻 Languages
+
+<p align="left">
+<a href="https://www.python.org/">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</a>
+<a href="https://www.java.com/">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+</a>
+<a href="https://www.javascript.com/">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</a>
+<a href="https://www.typescriptlang.org/">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</a>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=prudhvi-dot&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=prudhvi-dot&layout=compact&theme=transparent&hide_border=true" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=prudhvi-dot&theme=transparent&hide_border=true" />
+</p>
+
+---
+
+## 🧩 What I'm Currently Building
+
+```text
+AI Engineering
+      │
+      ├── RAG Systems
+      │     ├── Corrective RAG
+      │     ├── Self-RAG
+      │     └── Evaluation & Grounding
+      │
+      ├── Agentic Systems
+      │     ├── Tool Calling
+      │     ├── LangGraph
+      │     └── Multi-Agent Workflows
+      │
+      └── Production Engineering
+            ├── FastAPI
+            ├── PostgreSQL
+            ├── Docker
+            └── Deployment
+```
+
+---
+
+## 🎯 Current Focus
+
+Building AI applications that are:
+
+**Reliable → Grounded → Observable → Scalable → Production-ready**
+
+I'm particularly interested in **AI Engineering, Applied AI, and Backend Engineering** roles where I can work on real-world AI systems and backend infrastructure.
+
+---
+
+<p align="center">
+  <i>Building systems that know when to answer — and when not to.</i>
+</p>
